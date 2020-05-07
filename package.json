@@ -13,11 +13,11 @@
   "author": "Roman Plotkin",
   "license": "MIT",
   "dependencies": {
-    "moleculer": "^0.13.2",
+    "moleculer": "^0.13.13",
     "moleculer-web": "^0.8.5"
   },
   "devDependencies": {
-    "standard": "^14.3.3"
+    "standard": "~14.3.3"
   },
   "bugs": {
     "url": "https://github.com/colucom/osseus-moleculerweb/issues"
