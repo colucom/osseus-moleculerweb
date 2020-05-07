@@ -39,3 +39,9 @@ To make the moleculer-web Api Gateway module to function there must be configura
 - `OSSEUS_MOLECULER_WEB_MIDDLEWARES_PATH`
 
   * If you wishing to use the middelware like functions in the Api Gateway module , you shoud provide path to the array of those functions in the original project that requires the osseus-moleculerweb module.
+
+## Contributing
+Please see [contributing guidelines](https://github.com/colucom/osseus-moleculerweb/blob/master/.github/CONTRIBUTING.md).
+
+## License
+Code released under the [MIT License](https://github.com/colucom/osseus-moleculerweb/blob/master/LICENSE).
