@@ -5,13 +5,13 @@
 ## Install
 
 ```bash
-$ npm install @colucom/osseus-moleculer-web
+$ npm install @colucom/osseus-moleculerweb
 ```
 
 ## Usage
 
 ```javascript
-const OsseusMoleculerWeb = require("osseus-moleculer-web")
+const OsseusMoleculerWeb = require('@colucom/osseus-moleculerweb')
 const moleculer = await OsseusMoleculerWeb.init(osseus)
 const broker = moleculer.broker //Moleculer Service Broker Instance
 const apiGatewayService = moleculer.service // Moleucler-Web ApiGateway Service
