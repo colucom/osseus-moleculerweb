@@ -1,0 +1,26 @@
+{
+  "name": "@colucom/osseus-moleculerweb",
+  "version": "1.0.0",
+  "description": "Osseus moleculer-web(API Gateway) service module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colucom/osseus-moleculerweb.git"
+  },
+  "author": "Roman Plotkin",
+  "license": "MIT",
+  "dependencies": {
+    "moleculer": "^0.13.2",
+    "moleculer-web": "^0.8.5"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/colucom/osseus-moleculerweb/issues"
+  },
+  "homepage": "https://github.com/colucom/osseus-moleculerweb#readme"
+}
