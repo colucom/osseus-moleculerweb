@@ -1,6 +1,6 @@
 {
   "name": "@colucom/osseus-moleculerweb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Osseus moleculer-web(API Gateway) service module.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "moleculer": "^0.13.13",
-    "moleculer-web": "^0.8.5"
+    "moleculer-web": "^0.9.1"
   },
   "devDependencies": {
     "standard": "~14.3.3"
