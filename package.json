@@ -13,8 +13,9 @@
   "author": "Roman Plotkin",
   "license": "MIT",
   "dependencies": {
-    "moleculer": "^0.13.13",
-    "moleculer-web": "^0.9.1"
+    "moleculer": "~0.14.1",
+    "moleculer-web": "^0.9.1",
+    "mqtt": "^4.2.6"
   },
   "devDependencies": {
     "standard": "~14.3.3"
