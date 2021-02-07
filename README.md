@@ -10,6 +10,8 @@ $ npm install @colucom/osseus-moleculerweb
 
 ## Usage
 
+This module creates new moleculer-web service: **apiGateway**, as each moleculer service , actions, methods , hooks & events can be added. The routes & started event function are mandatory for the operation of the service. [see details below](#Configuration) <br><br>
+
 ```javascript
 const OsseusMoleculerWeb = require('@colucom/osseus-moleculerweb')
 const moleculer = await OsseusMoleculerWeb.init(osseus)
@@ -40,8 +42,25 @@ To make the moleculer-web Api Gateway module to function there must be configura
 
   * If you wishing to use the middelware like functions in the Api Gateway module , you shoud provide path to the array of those functions in the original project that requires the osseus-moleculerweb module.
 
+- `OSSEUS_MOLECULERWEB_ACTIONS_PATH`
+
+  * if you wish to add moleculer actions to the service , first you need to add the configuration to turn it on: <ins>`OSSEUS_MOLECULERWEB_SHOULD_LOAD_ACTIONS: true,`</ins>, and then add the whising path to the actions object.
+
+- `OSSEUS_MOLECULERWEB_HOOKS_PATH`
+
+  * if you wish to add moleculer actions to the service , first you need to add the configuration to turn it on: <ins>`OSSEUS_MOLECULERWEB_SHOULD_LOAD_HOOKS: true,`</ins>, and then add the whising path to the actions object.
+
+- `OSSEUS_MOLECULERWEB_METHODS_PATH`
+
+  * if you wish to add moleculer actions to the service , first you need to add the configuration to turn it on: <ins>`  OSSEUS_MOLECULERWEB_SHOULD_LOAD_METHODS: true,`</ins>, and then add the whising path to the actions object.
+
+- `OSSEUS_MOLECULERWEB_EVENTS_PATH`
+
+  * if you wish to add moleculer actions to the service , first you need to add the configuration to turn it on: <ins>`OSSEUS_MOLECULERWEB_SHOULD_LOAD_EVENTS: true,`</ins>, and then add the whising path to the actions object.
+
 ## Contributing
 Please see [contributing guidelines](https://github.com/colucom/osseus-moleculerweb/blob/master/.github/CONTRIBUTING.md).
 
 ## License
 Code released under the [MIT License](https://github.com/colucom/osseus-moleculerweb/blob/master/LICENSE).
+`
