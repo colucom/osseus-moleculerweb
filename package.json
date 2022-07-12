@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "moleculer": "~0.14.1",
-    "moleculer-web": "^0.9.1",
+    "moleculer-web": "^0.10.4",
     "mqtt": "^4.2.6"
   },
   "devDependencies": {
