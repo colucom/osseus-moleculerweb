@@ -1,6 +1,6 @@
 {
   "name": "@colucom/osseus-moleculerweb",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Osseus moleculer-web(API Gateway) service module.",
   "main": "index.js",
   "scripts": {
